@@ -113,7 +113,7 @@ if __name__ == "__main__":
     doi = "10.1145/3308558.3313562"
     
     pdf_download = pdfDownload()
-    pdf_download.set_proxy("127.0.1:1123")
+    pdf_download.set_proxy("127.0.1:7890")
     
     pdf_dict = pdf_download.get_pdf_from_sci_hub(doi)
     if pdf_dict:
